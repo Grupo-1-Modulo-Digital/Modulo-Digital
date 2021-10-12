@@ -36,8 +36,7 @@ strong {
 }
 
 h1{
-    font-family: 'Barlow Condensed', sans-serif;
-    color: var(-- #EF95CF);
+    color: blue;
 }
 h2{
     color: var(-- #EF95CF);

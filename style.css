@@ -27,7 +27,7 @@ body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
-    background: var(--#FFFFFF);
+    background: var(--#333399);
     color: var(--#333399);
 }
 
@@ -48,7 +48,7 @@ p.lead {
 }
 
 a {
-    color: var(--#131197);
+    color: var(--#333399);
     text-decoration: underline;
 }
 
@@ -73,7 +73,7 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(--#E297C1);
+    background-color: var(--#333399);
     background-image: url("img/relacion-3x4.png");
     background-position: center center;
     background-repeat: no-repeat;

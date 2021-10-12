@@ -28,7 +28,7 @@ body {
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
     background: var(--#EF95CF);
-    color: var(--#CC99CC);
+    color: green;
 }
 
 strong {
@@ -36,7 +36,7 @@ strong {
 }
 
 h1{
-    color: blue;
+    color: green;
 }
 h2{
     color: var(-- #EF95CF);

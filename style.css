@@ -28,7 +28,7 @@ body {
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
     background: var(--#EF95CF);
-    color: green;
+    color: var(-- #EF95CF);
 }
 
 strong {
@@ -36,7 +36,7 @@ strong {
 }
 
 h1{
-    color: green;
+    color: var(-- #EF95CF);
 }
 h2{
     color: var(-- #EF95CF);
@@ -57,7 +57,8 @@ a {
 }
 
 a:hover {
-    color: var(--#FFFFFF);
+    /*color: var(--#FFFFFF);*/
+    color: var(-- #EF95CF);
     text-decoration: none;
 }
 

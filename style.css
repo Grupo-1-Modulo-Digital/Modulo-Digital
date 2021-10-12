@@ -16,7 +16,7 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #EF95CF;
+    --primercolor: #88888;
     --segundocolor: #333399; /* menos luminoso y más saturado que el primero */
     --tercercolor: #666699 ; /* más luminoso y menos saturado que el primero */
     --colorclaro: rgba(255, 255, 255, 0.9);
@@ -27,7 +27,7 @@ body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
-    background: var(--#333399);
+    background: var(--#00000);
     color: var(--#333399);
 }
 

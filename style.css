@@ -60,7 +60,7 @@ a {
 }
 
 a:hover {
-    color: var(--#FFFFFF);
+    color: #FF0000;
     text-decoration: none;
 }
 

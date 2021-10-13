@@ -75,12 +75,12 @@ p.lead {
 }
 
 a {
-    color: #FAC116;
+    color: #EF95CF;
     text-decoration: underline;
 }
 
 a:hover {
-    color: #EF95CF;
+    color: #FAC116;
     text-decoration: none;
 }
 

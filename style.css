@@ -27,7 +27,7 @@ body {
     /* asignen aquí las tipografías y colores para todo texto */
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
-    background: #FAC116;
+    background: #333399;
 }
 
 strong {
@@ -75,7 +75,7 @@ p.lead {
 }
 
 a {
-    color: #EF95CF;
+    color: #FAC116;
     text-decoration: underline;
 }
 

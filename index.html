@@ -41,14 +41,12 @@
                             </div>
                         </div>
                         <div class="col-md-6 col-lg-5 p-4 order-md-first">
-                            <h3><i class="bi bi-cash-coin"></i> Empecemos por las soluciones </h3>
+                            <h3><i class="bi bi-cash-coin"></i> Empecemos por el trabajo de cuidado no remunerado </h3>
                             <p>
-                               En los tiempos actuales es fundamental entregar ayuda a las mujeres en ámbitos problemáticos donde existe una gran desigualdad, como lo es el campo laboral: Es necesario apoyar a trabajadoras formales e informales, empresas dirigidas por mujeres y la conciliación del trabajo remunerado y no remunerado.
-
+                                El Institute of Development Studies exponen en el film "Who Cares" un acercamiento al trabajo mal pagado, que está estrechamente relacionado a la mano de obra femenina adulta, al igual que infantil, haciendo especial énfasis en el empoderamiento económico de la mujer y sus derechos humanos. 
                             </p>
                             <p class="small d-none d-lg-block">
-                               El Institute of Development Studies exponen en el film "Who Cares" un acercamiento al trabajo mal pagado, que está estrechamente relacionado a la mano de obra femenina adulta, al igual que infantil, haciendo especial énfasis en el empoderamiento económico de la mujer y sus derechos humanos.
-
+                                Es fundamental comprender que la pobreza es un tema que involucra al Estado, cuyo deber principal es proporcionar el bienestar de las personas. Además, el núcleo familiar y cercano corresponde un aspecto fundamental en la superación de la pobreza, por lo que hacer caso omiso al trabajo de cuidados sólo aumenta el problema.
                             </p>
                         </div>
                     </div>
@@ -64,7 +62,7 @@
                             <img loading="lazy" class="img-fluid bg-light d-none d-lg-block" src="img/relacion-16x9.png" alt="describa la imagen" />
                         </div>
                         <div class="col-md-6 col-lg-5 p-4">
-                            <h3><i class="bi bi-emoji-sunglasses"></i> Mayores desventajas en el mundo laboral</h3>
+                            <h3><i class="bi bi-emoji-sunglasses"></i> Este subtítulo tiene que referir a un gráfico figurativo</h3>
                             <p>
                                Existe una desigualdad en ingresos de hombres y mujeres, la brecha salarial es mundial y se estima que las mujeres cobran un 23% menos que su contraparte masculina por un mismo trabajo. Además debido a la maternidad y trabajo en el hogar tienen una alta probabilidad de abandonar el mercado laboral incrementando la brecha económica. 
 
@@ -109,11 +107,10 @@
                             <canvas id="nuestroGrafico" class="bg-light" width="16" height="9"></canvas>
                         </div>
                         <div class="col-md-6 col-lg-5 p-4">
-                            <h3><i class="bi bi-emoji-sunglasses"></i> La actual feminización de la pobreza </h3>
+                            <h3><i class="bi bi-emoji-sunglasses"></i> Este subtítulo tiene que referir a un gráfico no figurativo</h3>
                             <p>
-                             
-                              En el contexto actual, la pandemia por Covid-19 ha provocado una crisis sanitaria y económica que incrementa la pobreza a nivel mundial afectando mayoritariamente a las mujeres. Las cifras de mujeres en situación de pobreza pre y post covid son mayores que las de los hombres.
-
+                                <a href="https://www.chartjs.org/docs/latest/">Charts.js</a> es una biblioteca de JavaScript con la que pueden hacer gráficos interactivos. Estos gráficos se dibujan dentro de un canvas, que es un elemento de
+                                HTML que permite dibujar con texto. Como elemento, se parece a SVG, pero su uso es más complejo.
                             </p>
                             <p class="small d-none d-lg-block">
                                 El gráfico y lo que muestra puede cambiar si cambian las últimas líneas del código fuente de esta página, dentro del script correspondiente.
@@ -208,12 +205,12 @@
             var nuestroGrafico = new Chart(ctx, {
                 type: "bar",
                 data: {
-                    labels: ["Mujeres, pre-covid", "Mujeres, post-covid", "Hombres, pre-covid", "Hombres, post-covid"],
+                    labels: ["Mujeres 2020", "Hombres 2020", "Mujeres 2021", "Hombres 2021", "Mujeres 2030", "Hombres 2030"],
                     datasets: [
                         {
-                            label: "Aumento de pobreza",
-                            data: [206, 232, 195, 221],
-                            backgroundColor: ["#E297C1", "#333399", "#6C69AE", "#4bc0c0"],
+                            label: "Aumento de pobreza extrema",
+                            data: [230, 213, 247, 207, 232, 195],
+                            backgroundColor: ["#E297C1", "#6C69AE", "#E297C1", "#6C69AE", "#E297C1", "#6C69AE"],
                             borderWidth: 1,
                         },
                     ],

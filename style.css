@@ -19,7 +19,7 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 :root {
     --primercolor: #EF95CF;
     --segundocolor: #333399; /* menos luminoso y más saturado que el primero */
-    --tercercolor: #666699 ; /* más luminoso y menos saturado que el primero */
+    --tercercolor: #FFFFFF ; /* más luminoso y menos saturado que el primero */
     --colorclaro: rgba(255, 255, 255, 0.9);
     --coloroscuro: rgba(0, 0, 0, 0.9);
 }
@@ -102,12 +102,12 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: #CC99CC;
+    background-color: #EF95CF;
     background-image: url("img/relacion-3x4.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #CC99CC;
+    color: #EF95CF;
 }
 
 @media (min-width: 576px) {
@@ -141,13 +141,13 @@ main {
 @media (min-width: 768px) {
     main {
         background-size: 50% auto;
-        color: #333399;
+        color: #EF95CF;
     }
 }
 
 aside {
     background: tercercolor;
-    color: #333399;
+    color: #EF95CF;
 }
 
 footer {
@@ -161,7 +161,7 @@ footer a {
 
 footer a:hover {
     text-decoration: none;
-    color: #333399;
+    color: #EF95CF;
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------

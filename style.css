@@ -139,13 +139,13 @@ main {
 @media (min-width: 768px) {
     main {
         background-size: 50% auto;
-        color: #F45280;
+        color: #FFFFFF;
     }
 }
 
 aside {
     background: tercercolor;
-    color: #EF95CF;
+    color: #F45280;
 }
 
 footer {

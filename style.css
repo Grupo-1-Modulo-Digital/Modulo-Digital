@@ -100,12 +100,12 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: #60D394;
+    background-color: #EF95CF;
     background-image: url("img/relacion-3x4.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: #EF95CF;
+    color: #60D394;
 }
 
 @media (min-width: 576px) {

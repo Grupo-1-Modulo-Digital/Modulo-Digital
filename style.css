@@ -44,10 +44,18 @@ h1{
 h2{
     color: #EF95CF;
 }
-h3,
-h4,
-h5,
-h6,
+h3{
+    color: #EF95CF;
+}
+h4{
+    color: #EF95CF;
+}
+h5{
+    color: #EF95CF;
+}
+h6{
+    color: #EF95CF;
+}
 p.lead {
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
     font-family: 'Barlow Condensed', sans-serif;

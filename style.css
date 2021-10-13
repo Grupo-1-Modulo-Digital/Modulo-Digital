@@ -102,12 +102,12 @@ en todos los casos la imagen debería pesar menos de 300kb
 --------------------------------------------------------------------------------------------- */
 
 header {
-    background-color: var(--#CC99CC);
+    background-color: #CC99CC;
     background-image: url("img/relacion-3x4.png");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
-    color: var(--#CC99CC);
+    color: #CC99CC;
 }
 
 @media (min-width: 576px) {
@@ -141,27 +141,27 @@ main {
 @media (min-width: 768px) {
     main {
         background-size: 50% auto;
-        color: var(--#666699);
+        color: #666699;
     }
 }
 
 aside {
-    background: var(--tercercolor);
-    color: var(--#333399);
+    background: tercercolor;
+    color: #333399;
 }
 
 footer {
-    color: var(--#EF95CF);
+    color: #EF95CF;
 }
 
 footer a {
     text-decoration: none;
-    color: var(--#EF95CF);
+    color: #EF95CF;
 }
 
 footer a:hover {
     text-decoration: none;
-    color: var(--#333399);
+    color: #333399;
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------

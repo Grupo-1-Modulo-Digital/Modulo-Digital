@@ -68,7 +68,7 @@ a {
 }
 
 a:hover {
-    color: #FF0000;
+    color: #333399;
     text-decoration: none;
 }
 
@@ -133,7 +133,7 @@ main {
 
 aside {
     background: var(--tercercolor);
-    color: var(--#131197);
+    color: var(--#333399);
 }
 
 footer {
@@ -147,7 +147,7 @@ footer a {
 
 footer a:hover {
     text-decoration: none;
-    color: var(--#131197);
+    color: var(--#333399);
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------

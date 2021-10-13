@@ -29,7 +29,7 @@ body {
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
     background: #333399;
-    color: #333399;
+    color: #FFFFFF;
 }
 
 strong {
@@ -39,12 +39,12 @@ strong {
 h1{
     font-family: 'Oswald', sans-serif;
     font-weight: 700;
-    color: #EF95CF;
+    color: #333399;
 }
 h2{
     font-family: 'Barlow Condensed', sans-serif;
     font-weight: 600;
-    color: #EF95CF;
+    color: #333399;
 }
 h3{ 
     font-family: 'Barlow Condensed', sans-serif;
@@ -69,7 +69,7 @@ h6{
 p.lead {
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
-    color: #333399;
+    color: #FFFFFF;
     
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
     font-family: 'Barlow Condensed', sans-serif;
@@ -141,7 +141,7 @@ main {
 @media (min-width: 768px) {
     main {
         background-size: 50% auto;
-        color: #666699;
+        color: #333399;
     }
 }
 

@@ -16,8 +16,8 @@ con ajustes de "contrast ratio" https://webaim.org/resources/contrastchecker/
 /* cambien aquí sus colores, necesitan definir tres */
 
 :root {
-    --primercolor: #23C9FF;
-    --segundocolor: #FF7417; /* menos luminoso y más saturado que el primero */
+    --primercolor: #EF95CF;
+    --segundocolor: #333399; /* menos luminoso y más saturado que el primero */
     --tercercolor: #FFFFFF ; /* más luminoso y menos saturado que el primero */
     --colorclaro: rgba(255, 255, 255, 0.9);
     --coloroscuro: rgba(51, 51, 153, 0.9);
@@ -67,7 +67,7 @@ h6{
 p.lead {
     font-family: 'Questrial', sans-serif;
     font-weight: 400;
-    color: #D1A2E8;
+    color: #EF95CF;
     
     /* asignen aquí la tipografía y peso que corresponda para los títulos */
     font-family: 'Barlow Condensed', sans-serif;
@@ -154,12 +154,12 @@ footer {
 
 footer a {
     text-decoration: none;
-    color: #BF001A;
+    color: #F45280;
 }
 
 footer a:hover {
     text-decoration: none;
-    color: #A9FFF7;
+    color: #EF95CF;
 }
 
 /* ---------------------------------------- IMPORTANTE ----------------------------------------

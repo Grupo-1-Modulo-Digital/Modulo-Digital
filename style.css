@@ -134,6 +134,7 @@ main {
     background-position: center bottom;
     background-repeat: repeat-x;
     background-size: 100% auto;
+    color: #FFFFFF
 }
 
 @media (min-width: 768px) {
